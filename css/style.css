@@ -1,0 +1,192 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+#container {
+  min-height:100%;
+  position:relative;
+}
+
+header {
+  width: 100%;
+  height: 7vh;
+  display: inline-flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.btn2 {
+  width: 190px;
+  height: 38px;
+  font-size: 15px;
+  background-color: yellow;
+  border: 3px solid #2555e8;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.btn2:hover {
+  background-color: #2555e8;
+  border: 3px solid yellow;
+}
+
+.btn1 {
+  width: 190px;
+  height: 38px;
+  font-size: 15px;
+  background-color: #2555e8;
+  border: 3px solid yellow;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.btn1:hover {
+  background-color: yellow;
+  border: 3px solid blue;
+}
+
+.a1 {
+  color: yellow;
+  text-decoration: none
+}
+
+.a1:hover {
+  color: blue;
+}
+
+.a2 {
+  color: blue;
+  text-decoration: none
+}
+
+.a2:hover {
+  color: yellow;
+}
+
+.wrapper {
+  height: 78vh;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+main #search {
+  width: auto;
+}
+
+.google {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -183px;
+  font-family: "Roboto", sans-serif;
+  color: #4285f4;
+  font-weight: 300;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 10px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+#search input {
+  width: 450px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 50px;
+  position: relative;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 0 3px 0px blue;
+}
+
+input {
+  font-style: initial;
+  font-weight: bold;
+}
+
+input:hover {
+  background-color: rgb(244, 248, 221);
+}
+
+.fa {
+  width: max-content;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#Ukraine {
+  height: 50px;
+  width: 100%;
+  background-color: #f5f3f3;
+  display: table;
+  vertical-align: middle;
+  border-bottom: 2px solid white;
+}
+
+#space {
+  height: 18vh;
+}
+
+#Ukraine p {
+  color: #4f5b66;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  margin: 20px 35px;
+}
+
+#footer {
+  height: 7vh;
+  width: 100%;
+  background-color: #f5f3f3;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position:absolute;
+  bottom:0;
+}
+
+#footer div {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+#footer div a {
+  margin-left: 15px;
+  color: #4f5b66;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
+#footer div a:hover {
+  color: #111214;
+  border: 1px solid rgb(31, 185, 250);
+  box-shadow: 0 0 3px 0px rgb(79, 91, 91);
+  padding: 3px;
+  font-weight: bold;
+}
